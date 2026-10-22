@@ -1,0 +1,496 @@
+[
+  {
+    "id": "A001",
+    "question": "What does the pwd command display?",
+    "answerability": "answerable",
+    "gold_sources": [
+      {
+        "source": "TLCL-25.12A.pdf",
+        "page_number": 32
+      }
+    ],
+    "reference_answer": "The pwd command displays the current working directory."
+  },
+  {
+    "id": "A002",
+    "question": "How can command output be redirected to a file?",
+    "answerability": "answerable",
+    "gold_sources": [
+      {
+        "source": "TLCL-25.12A.pdf",
+        "page_number": 81
+      },
+      {
+        "source": "TLCL-25.12A.pdf",
+        "page_number": 82
+      }
+    ],
+    "reference_answer": "The > operator redirects output to a file, while >> appends output to an existing file."
+  },
+  {
+    "id": "A003",
+    "question": "What is the difference between an absolute and a relative pathname?",
+    "answerability": "answerable",
+    "gold_sources": [
+      {
+        "source": "TLCL-25.12A.pdf",
+        "page_number": 33
+      }
+    ],
+    "reference_answer": "An absolute pathname starts at the root directory, whereas a relative pathname starts at the working directory."
+  },
+  {
+    "id": "A004",
+    "question": "Which environment variable represents the current working directory?",
+    "answerability": "answerable",
+    "gold_sources": [
+      {
+        "source": "TLCL-25.12A.pdf",
+        "page_number": 161
+      }
+    ],
+    "reference_answer": "The PWD environment variable represents the current working directory."
+  },
+  {
+    "id": "A005",
+    "question": "What do the . and .. pathname notations represent?",
+    "answerability": "answerable",
+    "gold_sources": [
+      {
+        "source": "TLCL-25.12A.pdf",
+        "page_number": 34
+      }
+    ],
+    "reference_answer": "The . notation represents the working directory, and .. represents its parent directory."
+  },
+  {
+    "id": "A006",
+    "question": "According to the AVISPA document, what should be run on the Needham-Schroeder protocol model, and what should the model checker report?",
+    "answerability": "answerable",
+    "gold_sources": [
+      {
+        "source": "Needham-Schroeder-Protocol-in-AVISPA.pdf",
+        "page_number": 1
+      }
+    ],
+    "reference_answer": "The document instructs the reader to run AVISPA on the protocol model and says that the model checker should report the model as safe."
+  },
+  {
+    "id": "A007",
+    "question": "What is the current IP address assigned to my Kali machine?",
+    "answerability": "unanswerable",
+    "gold_sources": [],
+    "reference_answer": "The current IP address of the user's machine cannot be established from these documents."
+  },
+  {
+    "id": "A008",
+    "question": "What is AVISPA?",
+    "answerability": "partially_supported",
+    "gold_sources": [
+      {
+        "source": "Needham-Schroeder-Protocol-in-AVISPA.pdf",
+        "page_number": 1
+      }
+    ],
+    "reference_answer": "The document refers to AVISPA as a model checker, but its specific passage does not provide a fuller definition."
+  },
+  {
+    "id": "A009",
+    "question": "Which command is used to create directories?",
+    "answerability": "answerable",
+    "gold_sources": [
+      {
+        "source": "TLCL-25.12A.pdf",
+        "page_number": 53
+      }
+    ],
+    "reference_answer": "The mkdir command creates directories."
+  },
+  {
+    "id": "A010",
+    "question": "What does the type command report about a command name?",
+    "answerability": "answerable",
+    "gold_sources": [
+      {
+        "source": "TLCL-25.12A.pdf",
+        "page_number": 69
+      }
+    ],
+    "reference_answer": "It reports how the shell interprets the command, such as a builtin, alias, or executable."
+  },
+  {
+    "id": "A011",
+    "question": "What is pathname expansion in the shell?",
+    "answerability": "answerable",
+    "gold_sources": [
+      {
+        "source": "TLCL-25.12A.pdf",
+        "page_number": 96
+      }
+    ],
+    "reference_answer": "Pathname expansion is the shell mechanism that expands wildcard patterns to matching pathnames."
+  },
+  {
+    "id": "A012",
+    "question": "Why does the * pattern not normally match hidden filenames?",
+    "answerability": "answerable",
+    "gold_sources": [
+      {
+        "source": "TLCL-25.12A.pdf",
+        "page_number": 97
+      }
+    ],
+    "reference_answer": "Pathname expansion normally excludes filenames beginning with a period from a pattern such as *."
+  },
+  {
+    "id": "A013",
+    "question": "Which command is used to copy files and directories?",
+    "answerability": "answerable",
+    "gold_sources": [
+      {
+        "source": "TLCL-25.12A.pdf",
+        "page_number": 50
+      }
+    ],
+    "reference_answer": "The cp command copies files and directories."
+  },
+  {
+    "id": "A014",
+    "question": "What does the permission string -rwx------ mean?",
+    "answerability": "answerable",
+    "gold_sources": [
+      {
+        "source": "TLCL-25.12A.pdf",
+        "page_number": 121
+      }
+    ],
+    "reference_answer": "The file owner can read, write, and execute the file; other users have no access."
+  },
+  {
+    "id": "A015",
+    "question": "In a long file listing, what does a leading d in the file attributes indicate?",
+    "answerability": "answerable",
+    "gold_sources": [
+      {
+        "source": "TLCL-25.12A.pdf",
+        "page_number": 120
+      }
+    ],
+    "reference_answer": "A leading d indicates that the filesystem object is a directory."
+  },
+  {
+    "id": "A016",
+    "question": "What does PID stand for in process management?",
+    "answerability": "answerable",
+    "gold_sources": [
+      {
+        "source": "TLCL-25.12A.pdf",
+        "page_number": 138
+      }
+    ],
+    "reference_answer": "PID stands for process ID, the number assigned to a process."
+  },
+  {
+    "id": "A017",
+    "question": "Which command does the book identify as commonly used to view processes?",
+    "answerability": "answerable",
+    "gold_sources": [
+      {
+        "source": "TLCL-25.12A.pdf",
+        "page_number": 138
+      }
+    ],
+    "reference_answer": "The ps command is commonly used to view processes."
+  },
+  {
+    "id": "A018",
+    "question": "According to the book, what does the PATH environment variable contain?",
+    "answerability": "answerable",
+    "gold_sources": [
+      {
+        "source": "TLCL-25.12A.pdf",
+        "page_number": 161
+      }
+    ],
+    "reference_answer": "PATH is a colon-separated list of directories searched when an executable is entered by name."
+  },
+  {
+    "id": "A019",
+    "question": "What is a mount point in a Linux filesystem?",
+    "answerability": "answerable",
+    "gold_sources": [
+      {
+        "source": "TLCL-25.12A.pdf",
+        "page_number": 219
+      }
+    ],
+    "reference_answer": "A mount point is the directory where a device's filesystem is attached to the filesystem tree."
+  },
+  {
+    "id": "A020",
+    "question": "What does ping send to a specified network host?",
+    "answerability": "answerable",
+    "gold_sources": [
+      {
+        "source": "TLCL-25.12A.pdf",
+        "page_number": 241
+      }
+    ],
+    "reference_answer": "Ping sends an ICMP ECHO_REQUEST packet to the specified host."
+  },
+  {
+    "id": "A021",
+    "question": "How does the book distinguish locate from find?",
+    "answerability": "answerable",
+    "gold_sources": [
+      {
+        "source": "TLCL-25.12A.pdf",
+        "page_number": 272
+      }
+    ],
+    "reference_answer": "locate finds files by name, while find searches for files in a directory hierarchy."
+  },
+  {
+    "id": "A022",
+    "question": "What is the tar utility primarily used for?",
+    "answerability": "answerable",
+    "gold_sources": [
+      {
+        "source": "TLCL-25.12A.pdf",
+        "page_number": 278
+      }
+    ],
+    "reference_answer": "tar is a utility for creating and handling archives of files and directories."
+  },
+  {
+    "id": "A023",
+    "question": "According to the book, what do the .tar and .tgz filename suffixes indicate?",
+    "answerability": "answerable",
+    "gold_sources": [
+      {
+        "source": "TLCL-25.12A.pdf",
+        "page_number": 278
+      }
+    ],
+    "reference_answer": ".tar indicates a plain tar archive, while .tgz indicates a gzipped tar archive."
+  },
+  {
+    "id": "A024",
+    "question": "What effect does the grep -i option have on matching?",
+    "answerability": "answerable",
+    "gold_sources": [
+      {
+        "source": "TLCL-25.12A.pdf",
+        "page_number": 292
+      }
+    ],
+    "reference_answer": "The -i option makes grep ignore case when matching."
+  },
+  {
+    "id": "A025",
+    "question": "What does the grep -v option do?",
+    "answerability": "answerable",
+    "gold_sources": [
+      {
+        "source": "TLCL-25.12A.pdf",
+        "page_number": 292
+      }
+    ],
+    "reference_answer": "The -v option makes grep print lines that do not match the pattern."
+  },
+  {
+    "id": "A026",
+    "question": "What does the sort program do to text lines?",
+    "answerability": "answerable",
+    "gold_sources": [
+      {
+        "source": "TLCL-25.12A.pdf",
+        "page_number": 317
+      }
+    ],
+    "reference_answer": "sort sorts the lines read from standard input or specified files and writes the result to standard output."
+  },
+  {
+    "id": "A027",
+    "question": "What is the purpose of cut in text processing?",
+    "answerability": "answerable",
+    "gold_sources": [
+      {
+        "source": "TLCL-25.12A.pdf",
+        "page_number": 326
+      }
+    ],
+    "reference_answer": "cut removes or extracts specified sections from lines of files."
+  },
+  {
+    "id": "A028",
+    "question": "What is the first line shown in the book's simple Bash script example?",
+    "answerability": "answerable",
+    "gold_sources": [
+      {
+        "source": "TLCL-25.12A.pdf",
+        "page_number": 407
+      }
+    ],
+    "reference_answer": "The first line is #!/bin/bash."
+  },
+  {
+    "id": "A029",
+    "question": "What does an exit status of zero conventionally indicate?",
+    "answerability": "answerable",
+    "gold_sources": [
+      {
+        "source": "TLCL-25.12A.pdf",
+        "page_number": 437
+      }
+    ],
+    "reference_answer": "An exit status of zero conventionally indicates successful command execution."
+  },
+  {
+    "id": "A030",
+    "question": "What are positional parameters in a shell script?",
+    "answerability": "answerable",
+    "gold_sources": [
+      {
+        "source": "TLCL-25.12A.pdf",
+        "page_number": 500
+      }
+    ],
+    "reference_answer": "They are shell variables containing the individual words supplied on the command line."
+  },
+  {
+    "id": "A031",
+    "question": "In the book's example, what does the shell parameter $# represent?",
+    "answerability": "answerable",
+    "gold_sources": [
+      {
+        "source": "TLCL-25.12A.pdf",
+        "page_number": 502
+      }
+    ],
+    "reference_answer": "$# represents the number of command-line arguments."
+  },
+  {
+    "id": "A032",
+    "question": "In traditional shell-form for-loop syntax, how is a list of words processed?",
+    "answerability": "answerable",
+    "gold_sources": [
+      {
+        "source": "TLCL-25.12A.pdf",
+        "page_number": 517
+      }
+    ],
+    "reference_answer": "The words are assigned to the loop variable one at a time, and the loop commands run for each iteration."
+  },
+  {
+    "id": "A033",
+    "question": "What exact version of the AVISPA software is used in the assignment?",
+    "answerability": "unanswerable",
+    "gold_sources": [],
+    "reference_answer": "The indexed documents do not state the exact AVISPA software version."
+  },
+  {
+    "id": "A034",
+    "question": "Who are the named authors or original developers of the AVISPA software?",
+    "answerability": "unanswerable",
+    "gold_sources": [],
+    "reference_answer": "The indexed documents do not identify the authors or original developers of AVISPA."
+  },
+  {
+    "id": "A035",
+    "question": "What exact number of nodes did the AVISPA model checker visit when the model was run?",
+    "answerability": "unanswerable",
+    "gold_sources": [],
+    "reference_answer": "The document instructs the reader to obtain the visitedNodes value but does not provide the result of a run."
+  },
+  {
+    "id": "A036",
+    "question": "What exact command-line options were used in the AVISPA model-checker run for the assignment?",
+    "answerability": "unanswerable",
+    "gold_sources": [],
+    "reference_answer": "The indexed documents do not provide the exact command-line options used for that run."
+  },
+  {
+    "id": "A037",
+    "question": "Which Linux kernel version is currently running on my Kali machine?",
+    "answerability": "unanswerable",
+    "gold_sources": [],
+    "reference_answer": "The indexed documents cannot establish the kernel version currently running on the user's machine."
+  },
+  {
+    "id": "A038",
+    "question": "How much free disk space is currently available on my Kali machine?",
+    "answerability": "unanswerable",
+    "gold_sources": [],
+    "reference_answer": "The indexed documents do not contain the machine's current free disk-space measurement."
+  },
+  {
+    "id": "A039",
+    "question": "What Wi-Fi network name (SSID) is my Kali machine currently connected to?",
+    "answerability": "unanswerable",
+    "gold_sources": [],
+    "reference_answer": "The indexed documents do not contain the current Wi-Fi network name of the user's machine."
+  },
+  {
+    "id": "A040",
+    "question": "What default-gateway IP address is currently configured on my Kali machine?",
+    "answerability": "unanswerable",
+    "gold_sources": [],
+    "reference_answer": "The indexed documents cannot establish the default gateway currently configured on the user's machine."
+  },
+  {
+    "id": "A041",
+    "question": "Which exact version of ChromaDB is installed in my current project environment?",
+    "answerability": "unanswerable",
+    "gold_sources": [],
+    "reference_answer": "The indexed PDFs do not specify the ChromaDB version installed in the user's project environment."
+  },
+  {
+    "id": "A042",
+    "question": "Why does the AVISPA assignment show a \"safe\" result even though it says the Needham-Schroeder protocol is flawed?",
+    "answerability": "partially_supported",
+    "gold_sources": [
+      {
+        "source": "Needham-Schroeder-Protocol-in-AVISPA.pdf",
+        "page_number": 1
+      }
+    ],
+    "reference_answer": "The assignment suggests that either the modeled environment or a modeled property may be incorrect, but it does not establish which is the actual cause."
+  },
+  {
+    "id": "A043",
+    "question": "Which exact line should be added to the AVISPA model to correct its modeling bug?",
+    "answerability": "partially_supported",
+    "gold_sources": [
+      {
+        "source": "Needham-Schroeder-Protocol-in-AVISPA.pdf",
+        "page_number": 1
+      }
+    ],
+    "reference_answer": "The assignment asks the reader to add a line and test the corrected model, but it does not provide the exact line to add."
+  },
+  {
+    "id": "A044",
+    "question": "Does a successful ping reply guarantee that the remote host's website and all its services are working?",
+    "answerability": "partially_supported",
+    "gold_sources": [
+      {
+        "source": "TLCL-25.12A.pdf",
+        "page_number": 241
+      }
+    ],
+    "reference_answer": "A ping reply provides evidence of network reachability, but the cited passage does not establish that every service on the host is working."
+  },
+  {
+    "id": "A045",
+    "question": "Why is the locate command failing on my Kali machine right now?",
+    "answerability": "partially_supported",
+    "gold_sources": [
+      {
+        "source": "TLCL-25.12A.pdf",
+        "page_number": 258
+      }
+    ],
+    "reference_answer": "The book explains that locate relies on a database created by updatedb and that the database may not be ready immediately after installation. This is one possible explanation, but the documents do not establish the actual cause on the user's machine."
+  }
+]

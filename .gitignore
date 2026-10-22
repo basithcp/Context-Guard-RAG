@@ -1,0 +1,11 @@
+.venv/
+__pycache__/
+*.py[cod]
+.env
+.streamlit/secrets.toml
+chroma_db/
+data/raw/*.pdf
+data/processed/
+.pytest_cache/
+
+data/raw/uploads/

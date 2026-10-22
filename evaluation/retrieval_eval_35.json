@@ -1,0 +1,391 @@
+[
+  {
+    "id": "R001",
+    "question": "What does the pwd command display?",
+    "gold_sources": [
+      {
+        "source": "TLCL-25.12A.pdf",
+        "page_number": 32
+      }
+    ],
+    "reference_answer": "The pwd command displays the current working directory."
+  },
+  {
+    "id": "R002",
+    "question": "How can command output be redirected to a file?",
+    "gold_sources": [
+      {
+        "source": "TLCL-25.12A.pdf",
+        "page_number": 81
+      },
+      {
+        "source": "TLCL-25.12A.pdf",
+        "page_number": 82
+      }
+    ],
+    "reference_answer": "The > operator redirects output to a file, while >> appends output to an existing file."
+  },
+  {
+    "id": "R003",
+    "question": "What is the difference between an absolute and a relative pathname?",
+    "gold_sources": [
+      {
+        "source": "TLCL-25.12A.pdf",
+        "page_number": 33
+      }
+    ],
+    "reference_answer": "An absolute pathname starts at the root directory, whereas a relative pathname starts at the working directory."
+  },
+  {
+    "id": "R004",
+    "question": "Which environment variable represents the current working directory?",
+    "gold_sources": [
+      {
+        "source": "TLCL-25.12A.pdf",
+        "page_number": 161
+      }
+    ],
+    "reference_answer": "The PWD environment variable represents the current working directory."
+  },
+  {
+    "id": "R005",
+    "question": "What do the . and .. pathname notations represent?",
+    "gold_sources": [
+      {
+        "source": "TLCL-25.12A.pdf",
+        "page_number": 34
+      }
+    ],
+    "reference_answer": "The . notation represents the working directory, and .. represents its parent directory."
+  },
+  {
+    "id": "R006",
+    "question": "According to the AVISPA document, what should be run on the Needham-Schroeder protocol model, and what should the model checker report?",
+    "gold_sources": [
+      {
+        "source": "Needham-Schroeder-Protocol-in-AVISPA.pdf",
+        "page_number": 1
+      }
+    ],
+    "reference_answer": "The document instructs the reader to run AVISPA on the protocol model and says that the model checker should report the model as safe."
+  },
+  {
+    "id": "R007",
+    "question": "What is AVISPA?",
+    "gold_sources": [
+      {
+        "source": "Needham-Schroeder-Protocol-in-AVISPA.pdf",
+        "page_number": 1
+      }
+    ],
+    "reference_answer": "The document refers to AVISPA as a model checker, but its specific passage does not provide a fuller definition."
+  },
+  {
+    "id": "R008",
+    "question": "Which command is used to create directories?",
+    "gold_sources": [
+      {
+        "source": "TLCL-25.12A.pdf",
+        "page_number": 53
+      }
+    ],
+    "reference_answer": "The mkdir command creates directories."
+  },
+  {
+    "id": "R009",
+    "question": "What does the type command report about a command name?",
+    "gold_sources": [
+      {
+        "source": "TLCL-25.12A.pdf",
+        "page_number": 69
+      }
+    ],
+    "reference_answer": "It reports how the shell interprets the command, such as a builtin, alias, or executable."
+  },
+  {
+    "id": "R010",
+    "question": "What is pathname expansion in the shell?",
+    "gold_sources": [
+      {
+        "source": "TLCL-25.12A.pdf",
+        "page_number": 96
+      }
+    ],
+    "reference_answer": "Pathname expansion is the shell mechanism that expands wildcard patterns to matching pathnames."
+  },
+  {
+    "id": "R011",
+    "question": "Why does the * pattern not normally match hidden filenames?",
+    "gold_sources": [
+      {
+        "source": "TLCL-25.12A.pdf",
+        "page_number": 97
+      }
+    ],
+    "reference_answer": "Pathname expansion normally excludes filenames beginning with a period from a pattern such as *."
+  },
+  {
+    "id": "R012",
+    "question": "Which command is used to copy files and directories?",
+    "gold_sources": [
+      {
+        "source": "TLCL-25.12A.pdf",
+        "page_number": 50
+      }
+    ],
+    "reference_answer": "The cp command copies files and directories."
+  },
+  {
+    "id": "R013",
+    "question": "What does the permission string -rwx------ mean?",
+    "gold_sources": [
+      {
+        "source": "TLCL-25.12A.pdf",
+        "page_number": 121
+      }
+    ],
+    "reference_answer": "The file owner can read, write, and execute the file; other users have no access."
+  },
+  {
+    "id": "R014",
+    "question": "In a long file listing, what does a leading d in the file attributes indicate?",
+    "gold_sources": [
+      {
+        "source": "TLCL-25.12A.pdf",
+        "page_number": 120
+      }
+    ],
+    "reference_answer": "A leading d indicates that the filesystem object is a directory."
+  },
+  {
+    "id": "R015",
+    "question": "What does PID stand for in process management?",
+    "gold_sources": [
+      {
+        "source": "TLCL-25.12A.pdf",
+        "page_number": 138
+      }
+    ],
+    "reference_answer": "PID stands for process ID, the number assigned to a process."
+  },
+  {
+    "id": "R016",
+    "question": "Which command does the book identify as commonly used to view processes?",
+    "gold_sources": [
+      {
+        "source": "TLCL-25.12A.pdf",
+        "page_number": 138
+      }
+    ],
+    "reference_answer": "The ps command is commonly used to view processes."
+  },
+  {
+    "id": "R017",
+    "question": "According to the book, what does the PATH environment variable contain?",
+    "gold_sources": [
+      {
+        "source": "TLCL-25.12A.pdf",
+        "page_number": 161
+      }
+    ],
+    "reference_answer": "PATH is a colon-separated list of directories searched when an executable is entered by name."
+  },
+  {
+    "id": "R018",
+    "question": "What is a mount point in a Linux filesystem?",
+    "gold_sources": [
+      {
+        "source": "TLCL-25.12A.pdf",
+        "page_number": 219
+      }
+    ],
+    "reference_answer": "A mount point is the directory where a device's filesystem is attached to the filesystem tree."
+  },
+  {
+    "id": "R019",
+    "question": "What does ping send to a specified network host?",
+    "gold_sources": [
+      {
+        "source": "TLCL-25.12A.pdf",
+        "page_number": 241
+      }
+    ],
+    "reference_answer": "Ping sends an ICMP ECHO_REQUEST packet to the specified host."
+  },
+  {
+    "id": "R020",
+    "question": "How does the book distinguish locate from find?",
+    "gold_sources": [
+      {
+        "source": "TLCL-25.12A.pdf",
+        "page_number": 272
+      }
+    ],
+    "reference_answer": "locate finds files by name, while find searches for files in a directory hierarchy."
+  },
+  {
+    "id": "R021",
+    "question": "What is the tar utility primarily used for?",
+    "gold_sources": [
+      {
+        "source": "TLCL-25.12A.pdf",
+        "page_number": 278
+      }
+    ],
+    "reference_answer": "tar is a utility for creating and handling archives of files and directories."
+  },
+  {
+    "id": "R022",
+    "question": "According to the book, what do the .tar and .tgz filename suffixes indicate?",
+    "gold_sources": [
+      {
+        "source": "TLCL-25.12A.pdf",
+        "page_number": 278
+      }
+    ],
+    "reference_answer": ".tar indicates a plain tar archive, while .tgz indicates a gzipped tar archive."
+  },
+  {
+    "id": "R023",
+    "question": "What effect does the grep -i option have on matching?",
+    "gold_sources": [
+      {
+        "source": "TLCL-25.12A.pdf",
+        "page_number": 292
+      }
+    ],
+    "reference_answer": "The -i option makes grep ignore case when matching."
+  },
+  {
+    "id": "R024",
+    "question": "What does the grep -v option do?",
+    "gold_sources": [
+      {
+        "source": "TLCL-25.12A.pdf",
+        "page_number": 292
+      }
+    ],
+    "reference_answer": "The -v option makes grep print lines that do not match the pattern."
+  },
+  {
+    "id": "R025",
+    "question": "What does the sort program do to text lines?",
+    "gold_sources": [
+      {
+        "source": "TLCL-25.12A.pdf",
+        "page_number": 317
+      }
+    ],
+    "reference_answer": "sort sorts the lines read from standard input or specified files and writes the result to standard output."
+  },
+  {
+    "id": "R026",
+    "question": "What is the purpose of cut in text processing?",
+    "gold_sources": [
+      {
+        "source": "TLCL-25.12A.pdf",
+        "page_number": 326
+      }
+    ],
+    "reference_answer": "cut removes or extracts specified sections from lines of files."
+  },
+  {
+    "id": "R027",
+    "question": "What is the first line shown in the book's simple Bash script example?",
+    "gold_sources": [
+      {
+        "source": "TLCL-25.12A.pdf",
+        "page_number": 407
+      }
+    ],
+    "reference_answer": "The first line is #!/bin/bash."
+  },
+  {
+    "id": "R028",
+    "question": "What does an exit status of zero conventionally indicate?",
+    "gold_sources": [
+      {
+        "source": "TLCL-25.12A.pdf",
+        "page_number": 437
+      }
+    ],
+    "reference_answer": "An exit status of zero conventionally indicates successful command execution."
+  },
+  {
+    "id": "R029",
+    "question": "What are positional parameters in a shell script?",
+    "gold_sources": [
+      {
+        "source": "TLCL-25.12A.pdf",
+        "page_number": 500
+      }
+    ],
+    "reference_answer": "They are shell variables containing the individual words supplied on the command line."
+  },
+  {
+    "id": "R030",
+    "question": "In the book's example, what does the shell parameter $# represent?",
+    "gold_sources": [
+      {
+        "source": "TLCL-25.12A.pdf",
+        "page_number": 502
+      }
+    ],
+    "reference_answer": "$# represents the number of command-line arguments."
+  },
+  {
+    "id": "R031",
+    "question": "In traditional shell-form for-loop syntax, how is a list of words processed?",
+    "gold_sources": [
+      {
+        "source": "TLCL-25.12A.pdf",
+        "page_number": 517
+      }
+    ],
+    "reference_answer": "The words are assigned to the loop variable one at a time, and the loop commands run for each iteration."
+  },
+  {
+    "id": "R032",
+    "question": "Why does the AVISPA assignment show a \"safe\" result even though it says the Needham-Schroeder protocol is flawed?",
+    "gold_sources": [
+      {
+        "source": "Needham-Schroeder-Protocol-in-AVISPA.pdf",
+        "page_number": 1
+      }
+    ],
+    "reference_answer": "The assignment suggests that either the modeled environment or a modeled property may be incorrect, but it does not establish which is the actual cause."
+  },
+  {
+    "id": "R033",
+    "question": "Which exact line should be added to the AVISPA model to correct its modeling bug?",
+    "gold_sources": [
+      {
+        "source": "Needham-Schroeder-Protocol-in-AVISPA.pdf",
+        "page_number": 1
+      }
+    ],
+    "reference_answer": "The assignment asks the reader to add a line and test the corrected model, but it does not provide the exact line to add."
+  },
+  {
+    "id": "R034",
+    "question": "Does a successful ping reply guarantee that the remote host's website and all its services are working?",
+    "gold_sources": [
+      {
+        "source": "TLCL-25.12A.pdf",
+        "page_number": 241
+      }
+    ],
+    "reference_answer": "A ping reply provides evidence of network reachability, but the cited passage does not establish that every service on the host is working."
+  },
+  {
+    "id": "R035",
+    "question": "Why is the locate command failing on my Kali machine right now?",
+    "gold_sources": [
+      {
+        "source": "TLCL-25.12A.pdf",
+        "page_number": 258
+      }
+    ],
+    "reference_answer": "The book explains that locate relies on a database created by updatedb and that the database may not be ready immediately after installation. This is one possible explanation, but the documents do not establish the actual cause on the user's machine."
+  }
+]

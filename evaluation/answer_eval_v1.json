@@ -1,0 +1,97 @@
+[
+    {
+      "id": "A001",
+      "question": "What does the pwd command display?",
+      "answerability": "answerable",
+      "gold_sources": [
+        {
+          "source": "TLCL-25.12A.pdf",
+          "page_number": 32
+        }
+      ],
+      "reference_answer": "The pwd command displays the current working directory."
+    },
+    {
+      "id": "A002",
+      "question": "How can command output be redirected to a file?",
+      "answerability": "answerable",
+      "gold_sources": [
+        {
+          "source": "TLCL-25.12A.pdf",
+          "page_number": 81
+        },
+        {
+          "source": "TLCL-25.12A.pdf",
+          "page_number": 82
+        }
+      ],
+      "reference_answer": "The > operator redirects output to a file, while >> appends output to an existing file."
+    },
+    {
+      "id": "A003",
+      "question": "What is the difference between an absolute and a relative pathname?",
+      "answerability": "answerable",
+      "gold_sources": [
+        {
+          "source": "TLCL-25.12A.pdf",
+          "page_number": 33
+        }
+      ],
+      "reference_answer": "An absolute pathname starts at the root directory, whereas a relative pathname starts at the working directory."
+    },
+    {
+      "id": "A004",
+      "question": "Which environment variable represents the current working directory?",
+      "answerability": "answerable",
+      "gold_sources": [
+        {
+          "source": "TLCL-25.12A.pdf",
+          "page_number": 161
+        }
+      ],
+      "reference_answer": "The PWD environment variable represents the current working directory."
+    },
+    {
+      "id": "A005",
+      "question": "What do the . and .. pathname notations represent?",
+      "answerability": "answerable",
+      "gold_sources": [
+        {
+          "source": "TLCL-25.12A.pdf",
+          "page_number": 34
+        }
+      ],
+      "reference_answer": "The . notation represents the working directory, and .. represents its parent directory."
+    },
+    {
+      "id": "A006",
+      "question": "According to the AVISPA document, what should be run on the Needham-Schroeder protocol model, and what should the model checker report?",
+      "answerability": "answerable",
+      "gold_sources": [
+        {
+          "source": "Needham-Schroeder-Protocol-in-AVISPA.pdf",
+          "page_number": 1
+        }
+      ],
+      "reference_answer": "The document instructs the reader to run AVISPA on the protocol model and says that the model checker should report the model as safe."
+    },
+    {
+      "id": "A007",
+      "question": "What is the current IP address assigned to my Kali machine?",
+      "answerability": "unanswerable",
+      "gold_sources": [],
+      "reference_answer": "The current IP address of the user's machine cannot be established from these documents."
+    },
+    {
+      "id": "A008",
+      "question": "What is AVISPA?",
+      "answerability": "partially_supported",
+      "gold_sources": [
+        {
+          "source": "Needham-Schroeder-Protocol-in-AVISPA.pdf",
+          "page_number": 1
+        }
+      ],
+      "reference_answer": "The document refers to AVISPA as a model checker, but its specific passage does not provide a fuller definition."
+    }
+  ]

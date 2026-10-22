@@ -1,0 +1,49 @@
+[
+  {
+    "id": "R001",
+    "question": "What does the pwd command display?",
+    "gold_pages": [32],
+    "reference_answer": "It displays the current working directory.",
+    "gold_evidence": [
+      "pwd (print working directory) command"
+    ]
+  },
+  {
+    "id": "R002",
+    "question": "How can command output be redirected to a file?",
+    "gold_pages": [81, 82],
+    "reference_answer": "Use the > redirection operator followed by a filename. The > operator can create or truncate a file; >> is used to append output.",
+    "gold_evidence": [
+      "To redirect standard output to another file instead of the screen, we use the > redirection operator followed by the name of the file.",
+      "Using the redirection operator can truncate an existing file or create a new, empty file."
+    ]
+  },
+  {
+    "id": "R003",
+    "question": "What is the difference between an absolute and a relative pathname?",
+    "gold_pages": [33],
+    "reference_answer": "An absolute pathname starts from the root directory, while a relative pathname starts from the working directory.",
+    "gold_evidence": [
+      "An absolute pathname begins with the root directory",
+      "A relative pathname starts from the working directory"
+    ]
+  },
+  {
+    "id": "R004",
+    "question": "Which environment variable represents the current working directory?",
+    "gold_pages": [161],
+    "reference_answer": "PWD represents the current working directory.",
+    "gold_evidence": [
+      "PWD The current working directory."
+    ]
+  },
+  {
+    "id": "R005",
+    "question": "What do the . and .. pathname notations represent?",
+    "gold_pages": [34],
+    "reference_answer": ". represents the working directory and .. represents its parent directory.",
+    "gold_evidence": [
+      "The . notation refers to the working directory, and the .. notation refers to the working directory's parent directory."
+    ]
+  }
+]

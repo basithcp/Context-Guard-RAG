@@ -1,0 +1,72 @@
+[
+    {
+      "id": "R001",
+      "question": "What does the pwd command display?",
+      "gold_sources": [
+        {
+          "source": "TLCL-25.12A.pdf",
+          "page_number": 32
+        }
+      ],
+      "reference_answer": "The pwd command displays the current working directory."
+    },
+    {
+      "id": "R002",
+      "question": "How can command output be redirected to a file?",
+      "gold_sources": [
+        {
+          "source": "TLCL-25.12A.pdf",
+          "page_number": 81
+        },
+        {
+          "source": "TLCL-25.12A.pdf",
+          "page_number": 82
+        }
+      ],
+      "reference_answer": "Use > to redirect output to a file and >> to append output to an existing file."
+    },
+    {
+      "id": "R003",
+      "question": "What is the difference between an absolute and a relative pathname?",
+      "gold_sources": [
+        {
+          "source": "TLCL-25.12A.pdf",
+          "page_number": 33
+        }
+      ],
+      "reference_answer": "An absolute pathname starts from the root directory, whereas a relative pathname starts from the working directory."
+    },
+    {
+      "id": "R004",
+      "question": "Which environment variable represents the current working directory?",
+      "gold_sources": [
+        {
+          "source": "TLCL-25.12A.pdf",
+          "page_number": 161
+        }
+      ],
+      "reference_answer": "The PWD environment variable represents the current working directory."
+    },
+    {
+      "id": "R005",
+      "question": "What do the . and .. pathname notations represent?",
+      "gold_sources": [
+        {
+          "source": "TLCL-25.12A.pdf",
+          "page_number": 34
+        }
+      ],
+      "reference_answer": "The . notation represents the working directory, and .. represents its parent directory."
+    },
+    {
+      "id": "R006",
+      "question": "According to the AVISPA document, what should be run on the Needham-Schroeder protocol model, and what should the model checker report?",
+      "gold_sources": [
+        {
+          "source": "Needham-Schroeder-Protocol-in-AVISPA.pdf",
+          "page_number": 1
+        }
+      ],
+      "reference_answer": "The document instructs the reader to run AVISPA on the supplied protocol model and says that the model checker should report the model as safe."
+    }
+  ]
